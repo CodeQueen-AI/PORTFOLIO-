@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Boxicons Link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Style Sheet File Link-->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+        <div class="logo">Studio</div>
+        <ul class="navlinks" id="navlinks">
+            <li><a href="#" class="navlink">Home</a></li>
+            <li><a href="#" class="navlink">About</a></li>
+            <li><a href="#" class="navlink">Skills</a></li>
+            <li><a href="#" class="navlink">Projects</a></li>
+        </ul>
+        <div class="button">
+            <a href="#" class="button-link">Contact</a>
+        </div>        
+        <div class="hamburger" id="hamburger">
+            <i class="bx bx-menu"></i>
+        </div>
+    </nav>
+
+
+    <!--Hero Section-->
+    <section class="container">
+        <div class="content">
+          <h4 class="title">
+            Welcome Coders!
+          </h4>
+          <h4 class="role">
+            <span id="type-animation"></span>
+          </h4>
+          <p class="description">
+            I am passionate about learning and growing in the field of technology. I love turning ideas into reality and am excited to create innovative projects.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/your-github-username" target="_blank" class="social-icon" aria-label="GitHub Profile">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" class="social-icon" aria-label="LinkedIn Profile">
+                <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
+          <div class="portfolio-button">
+            <a href="/" class="button" aria-label="View Portfolio">
+              View Portfolio
+            </a>
+          </div>
+        </div>
+        <div class="profile-picture">
+          <img src="Home Pic.png" alt="Profile Picture" />
+        </div>
+      </section>
+
+
+      <!--About Section-->
+      <section class="section-two section">
+        <div class="section-two-container">
+          <div class="section-two-inner-container">
+            <div class="content">
+              <h1 class="section-two-heading">About Me</h1>
+              <p class="section-two-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate atque soluta illum iste voluptates nam, consequatur qui doloremque delectus ullam quaerat libero ut, nisi praesentium. Tempora impedit quasi sint rem.</p>
+                <button class="section-two-btn">View More</button>
+            </div>
+            <div class="image-container">
+              <img src="about Page Pic.png " class="section-two-image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--Skills-->
+      <section id="skill">
+        <div class="skill">
+         <h1 class="index" style="color: red;">🚀My Skill💡</h1>
+         <li><h3 class="h3">HTML</h3>
+             <span class="bar"><span class="html"></span></span>
+         </li>
+ 
+         <li><h3 class="h3">CSS</h3>
+             <span class="bar"><span class="css"></span></span>
+         </li>
+ 
+         <li><h3 class="h3">Javascript</h3>
+             <span class="bar"><span class="js"></span></span>
+         </li>
+ 
+         <li><h3 class="h3">Typescript</h3>
+             <span class="bar"><span class="ts"></span></span>
+         </li>
+ 
+         <li><h3 class="h3">Next.JS</h3>
+             <span class="bar"><span class="next"></span></span>
+         </li>
+
+         <li><h3 class="h3">React</h3>
+            <span class="bar"><span class="react"></span></span>
+        </li>
+
+        <li><h3 class="h3">UI/UX Design</h3>
+            <span class="bar"><span class="design"></span></span>
+        </li>
+        </div>
+     </section>
+
+
+     <!--Project Section-->
+     <section id="project">
+        <div class="project-heading">
+            <span>Let's See My Work</span>
+            <h3>Projects Milestone</h3>
+        </div>
+
+        <ul class="project-filter">
+            <li class="list project-filter-active" data-filter="all">All</li>
+            <li class="list" data-filter="html">Html/CSS</li>
+            <li class="list" data-filter="js">JS</li>
+            <li class="list" data-filter="ts">TS</li>
+            <li class="list" data-filter="react">React</li>
+        </ul>
+
+        <div class="project-container">
+            <!--Html-->
+            <a href="" class="project-box html">
+                <img src="Html1.PNG" alt="work">
+            </a>
+
+            <a href="" class="project-box html">
+                <img src="Html2.PNG" alt="work">
+            </a>
+
+            <a href="" class="project-box html">
+                <img src="Html3.PNG" alt="work">
+            </a>
+
+            <a href="" class="project-box html">
+                <img src="Html4.PNG" alt="work">
+            </a>
+
+            <a href="" class="project-box html">
+                <img src="html5.PNG" alt="work">
+            </a>
+
+            <!--JS-->
+            <a href="" class="project-box js">
+                <img src="js1.PNG" alt="work">
+            </a>
+
+            <a href="" class="project-box js">
+                <img src="js2.PNG" alt="work">
+            </a>
+
+            <a href="" class="project-box js">
+                <img src="js3.PNG" alt="work">
+            </a>
+
+            <a href="" class="project-box js">
+                <img src="js4.PNG" alt="work">
+            </a>
+
+            <!--Ts-->
+            <a href="" class="project-box ts">
+                <img src="types2.jpeg" alt="work">
+            </a>
+            <a href="" class="project-box ts">
+                <img src="Types1.jpeg" alt="work">
+            </a>
+
+            <!--React-->
+            <a href="" class="project-box react">
+                <img src="React1.PNG" alt="work">
+            </a>
+
+            <a href="" class="project-box react">
+                <img src="React2.PNG" alt="work">
+            </a>
+        </div>
+    </section>
+    
+    <!--Contact-->
+    <section id="section-wrapper" >
+        <div class="box-wrapper" id="contact">
+            <div class="info-wrap">
+                <h2 class="info-title">Contact Information</h2>
+                <h3 class="info-sub-title">Fill Up The Form📞</h3>
+                <ul class="info-details">
+                    <li>
+                        <i class='bx bx-phone'></i>
+                        <span>Phone: </span><a href="tel:+123456789">123456789</a>
+                    </li>
+
+                    <li>
+                        <i class='bx bx-envelope'></i>
+                        <span>Email: </span><a href="mailto:codeq209@gmail.com">codeq209@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class='bx bx-location-plus'></i>
+                        <span>Address: </span><span>123 Street Name, City, Country</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-wrap">
+                <form action="#" method="POST">
+                    <h2 class="form-title">Send a message</h2>
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <input type="text" class="fname" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="lname" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                           <textarea name="message" id="" placeholder="Write Your Message"></textarea>
+                        </div>
+                    </div>
+                        <input type="submit" value="Send message" class="submit-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+        <!--Js File Link-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
